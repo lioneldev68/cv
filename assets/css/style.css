@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+p {
+  font-family: "lato";
+}
+a:link {
+  color: white;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-family: "releway";
+  border-left: 5px solid #782221;
+  display: flex;
+  justify-content: stretch;
+}
+
+h2 {
+  font-family: "releway";
+  background-color: #dbc2a4;
+  color: black;
+  border-left: 5px solid #782221;
+  display: flex;
+  justify-content: stretch;
+}
+
+h5 {
+  padding-left: 60px;
+}
+p {
+  text-align: justify;
+  padding-left: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  border-right: 2px solid black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #782221;
+  color: white;
+}
+
+#photo {
+  display: flex;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 0.75rem rgb(43, 40, 41));
+}
+
+#logo {
+  display: flex;
+  padding: 5px;
+  padding-left: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#linkedin {
+  padding-right: 10px;
+}
+
+#twitter {
+  padding-right: 10px;
+}
+#p {
+  font-family: "releway";
+}
+
+#ul {
+  font-family: "releway";
+}
+
+#téléphone {
+  font-style: italic;
+  padding-right: 20px;
+}
+
+#mail {
+  font-style: italic;
+}
+
+#entete {
+  display: flex;
+}
+
+#nom {
+  color: white;
+  background-color: #782221;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 1160px;
+  justify-content: center;
+}
+
+#contact {
+  background-color: #2c1d27;
+  color: white;
+  height: 60px;
+  width: 1140px;
+  padding: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#adresse {
+  color: white;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+#gauche {
+  color: white;
+  background-color: #782221;
+  width: 300px;
+  padding-right: 20px;
+
+  display: block;
+  flex-direction: column;
+}
+
+#langues {
+  align-items: start;
+  justify-content: stretch;
+}
+
+#passif {
+  color: white;
+  padding-left: 30px;
+  padding-right: 20px;
+  display: block;
+  flex-direction: column;
+}
+#experiences {
+  width: 800px;
+  color: black;
+  font-family: "lato";
+}
+
+#diplomes {
+  color: black;
+  font-family: "lato";
+}
+#competences {
+  color: black;
+  font-family: "lato";
+}
+
+#a-propos2 {
+  font-family: "releway";
+  background-color: #dbc2a4;
+  color: black;
+  border-left: 10px solid #dbc2a4;
+  display: flex;
+  justify-content: stretch;
+}
+
+#langues2 {
+  font-family: "releway";
+  background-color: #dbc2a4;
+  color: black;
+  border-left: 10px solid #dbc2a4;
+  display: flex;
+  justify-content: stretch;
+}
+
+#centre-d-interets2 {
+  font-family: "releway";
+  background-color: #dbc2a4;
+  color: black;
+  border-left: 10px solid #dbc2a4;
+  display: flex;
+  justify-content: stretch;
+}
+
+img.opacity {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  zoom: 1;
+}
+
+img.opacity:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  zoom: 1;
+}
