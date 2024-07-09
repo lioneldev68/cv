@@ -17,14 +17,14 @@ a {
 }
 
 h1 {
-  font-family: "releway";
+  font-family: "lato";
   border-left: 5px solid #782221;
   display: flex;
   justify-content: stretch;
 }
 
 h2 {
-  font-family: "releway";
+  font-family: "lato";
   background-color: #dbc2a4;
   color: black;
   border-left: 5px solid #782221;
@@ -70,7 +70,7 @@ footer {
 #photo {
   display: flex;
   border-radius: 100%;
-  filter: drop-shadow(0 0 0.75rem rgb(43, 40, 41));
+  filter: box-shadow(0 0 1rem rgb(0, 0, 0));
 }
 
 #logo {
